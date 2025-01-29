@@ -5,6 +5,10 @@
     --font-dm-sans: "DM Sans", sans-serif;
 
     /*colors*/
-    --bg-icon: #131313
-    --bg-arrow-color: rgba(0, 0, 07)
+    --bg-icon: #131313;
+    --bg-arrow-color: rgba(0, 0, 07);
+    --bg-color-secundary: #121212;
+    --bg-color-tertiary: #242424;
+    --font-color-primary: #fff;
+    --font-color-secundary: #b3b3b3;
 }

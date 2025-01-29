@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-
 body {
     background-color: #000;
     font-family: var(--font-dm-sans);
@@ -27,14 +25,14 @@ body {
 }
 
 .sidebar nav ul li a{
-    color: #b3b3b3;
+    color: var(--font-color-secundary);
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
 }
 
 .sidebar_navigation{
-    background-color: #121212;
+    background-color: var(--bg-color-secundary);
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
@@ -44,7 +42,7 @@ body {
 }
 
 .sidebar_navigation .logo{
-    background: #121212;
+    background-color: var(--bg-color-secundary);
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -55,13 +53,13 @@ body {
 }
 
 .biblioteca{
-    background-color: #121212;
+    background-color: var(--bg-color-secundary);
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding: 4px 8px;
-    color: #b3b3b3;
+    color: var(--font-color-secundary);
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
@@ -76,7 +74,7 @@ body {
 .biblioteca_button{
     display: flex;
     margin-right: 10px;
-    color: #b3b3b3;
+    color: var(--font-color-secundary);
     background-color: transparent;
     border: 0;
     font-size: 14px; 
@@ -102,8 +100,8 @@ body {
     align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
-    background-color: #242424;
-    color: #b3b3b3;
+    background-color: var(--bg-color-tertiary);
+    color: var(--font-color-secundary);
     font-weight: 600;
     font-size: 14px;
     margin: 6px 0px;
@@ -118,7 +116,7 @@ body {
 
 .section-playlist_content .text, .section-podcast_content .text{
     padding-bottom: 14px;
-    color: #fff;
+    color: var( --font-color-primary);
 }
 
 .section-playlist_content .title, .section-podcast_content .title{
@@ -155,7 +153,7 @@ body {
 }
 
 .sidebar .cookies a{
-    color: #b3b3b3;
+    color: var(--font-color-secundary);
     font-weight: 500;
     font-size: 12px;
     text-decoration: none;
@@ -170,7 +168,7 @@ body {
     align-items: center;
     background-color: transparent;
     border: 1px solid #878787;
-    color: #fff;
+    color: var( --font-color-primary);
     cursor: pointer;
     font-weight: bold;
     width: 170px;
@@ -195,14 +193,14 @@ body {
 }
 
 .premium .premium_title{ 
-    color: #fff; 
+    color: var( --font-color-primary);
     font-size: 15px;
     margin-bottom: 10px;
     font-weight: bolder;
 }
 
 .premium .premium_subtitle{ 
-    color: #fff; 
+    color: var(--font-color-primary);
     font-size: 16px;
     font-weight: 500;
 }
