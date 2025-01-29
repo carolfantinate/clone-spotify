@@ -5,16 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/vars.css">
+    <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="src/styles/main-content.css">
 </head>
 
 <body>
+    <!--Barra lateral-->
     <div class="sidebar">
         <nav class="sidebar_navigation">
             <div class="logo">
                 <a href="">
-                    <img src="assets/icons/logo-spotify.png" alt="logo Spotify">
+                    <img src="./src/assets/icons/logo-spotify.png" alt="logo Spotify">
                 </a>
             </div>
 
@@ -27,13 +30,14 @@
                 </li>
                 <li>
                     <a href="">
-                        <span class="fa-solid fa-magnifying-glass"></span> 
+                        <span class="fa-solid fa-magnifying-glass"></span>
                         <span>Buscar</span>
                     </a>
                 </li>
             </ul>
         </nav>
 
+        <!--biblioteca-->
         <div class="biblioteca">
             <div class="biblioteca_content">
                 <button class="biblioteca_button">
@@ -55,14 +59,14 @@
 
             <section class="section-podcast">
                 <div class="section-podcast_content">
-                    <span class="text title">Que tal segui um podcast novo?</span>
+                    <span class="text title">Que tal seguir um podcast novo?</span>
                     <span class="text subtitle">Avisaremos você sobre novos episódios.</span>
                     <button class="section-podcast_button">
                         <span>Explore podcasts</span>
                     </button>
                 </div>
             </section>
-            
+
             <div class="cookies">
                 <a href="">Cookies</a>
             </div>
@@ -75,20 +79,58 @@
             </div>
         </div>
 
-    </div>
-
-    <footer class="premium">
-        <div class="text">
-            <p class="premium_title">Testar o Premium de graça</p>
-            <p class="premium_subtitle">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito</p>
         </div>
-        <div class="button">
-            <button>Inscreva-se grátis</button>
-        </div>
-    </footer>
 
-    <script src="script.js"></script>
-    <script src="https://kit.fontawesome.com/f9c90ebe75.js" crossorigin="anonymous"></script>
+        <main>
+            <div class="main-container">
+                <nav class="header__navigation">
+                    <div class="navigation">
+                        <button class="arrow-left">
+                            <img src="./src/assets/icons/small-left.png" alt="Seta esquerda">
+                        </button>
+                        <button class="arrow-right">
+                            <img src="./src/assets/icons/small-right.png" alt="Seta direita">
+                        </button>
+                    </div>
+                    <div class="header__search">
+                        <img src="./src/assets/icons/search.png" alt="">
+                        <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
+                    </div>
+                    <div class="header__login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+                </nav>
+
+                <!--playlists-->
+                <div class="playlist-container">
+                    <div id="result-playlist">
+                        <div class="playlist">
+                            <h1 id="greeting">Boas vindas</h1>
+                            <h2 id="greeting-subtitle">Navegar por todas as seções</h2>
+                        </div>
+
+                        <!-- lista de cards -->
+
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="premium">
+            <div class="text">
+                <p class="premium_title">Testar o Premium de graça</p>
+                <p class="premium_subtitle">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios.
+                    Não
+                    precisa de cartão de crédito</p>
+            </div>
+            <div class="button">
+                <button>Inscreva-se grátis</button>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/f9c90ebe75.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

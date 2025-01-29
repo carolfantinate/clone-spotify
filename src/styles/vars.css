@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root{
+    /*fonte*/
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    /*colors*/
+    --bg-icon: #131313
+    --bg-arrow-color: rgba(0, 0, 07)
+}

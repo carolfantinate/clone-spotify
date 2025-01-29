@@ -2,6 +2,7 @@
 
 body {
     background-color: #000;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar{
@@ -30,7 +31,6 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
 }
 
 .sidebar_navigation{
@@ -81,7 +81,6 @@ body {
     border: 0;
     font-size: 14px; 
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -120,7 +119,6 @@ body {
 .section-playlist_content .text, .section-podcast_content .text{
     padding-bottom: 14px;
     color: #fff;
-    font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist_content .title, .section-podcast_content .title{
@@ -140,7 +138,6 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif; 
     text-decoration: none;
     text-transform: none;
     padding: 6px;
@@ -195,7 +192,6 @@ body {
 
 .premium .text{
     flex-shrink: 0;
-    font-family: "DM Sans", sans-serif; 
 }
 
 .premium .premium_title{ 
