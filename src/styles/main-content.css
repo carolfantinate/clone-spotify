@@ -1,3 +1,7 @@
+body{
+    overflow-y: hidden;
+}
+
 /* HEADER */
 
 .main-container {
@@ -146,8 +150,8 @@
 
 .cards {
     position: relative;
-    width: 205px;
-    height: 195px;
+    width: 200px;
+    height: 190px;
     overflow: hidden;
     border-radius: 8px;
 }
@@ -263,9 +267,7 @@
     width: 100%;
 }
 
-.artist-card:hover {
-    background-color: #252525;
-}
+
 
 .card-img {
     padding-bottom: 100%;
@@ -329,9 +331,20 @@
     transition: all ease 0.4s;
 }
 
+#result-artist {
+    padding: 20px 40px;
+}
+
+/* FIM CARD ARTISTA */
+
+/*hover*/
 .artist-card:hover .play .fa-play {
     opacity: 1;
     transform: translateY(-20px);
+}
+
+.artist-card:hover {
+    background-color: #252525;
 }
 
 .play .fa-play:hover {
@@ -339,8 +352,18 @@
     cursor: pointer;
 }
 
-#result-artist {
-    padding: 20px 40px;
+.header__search:hover {
+    border: 1px solid #fff;
+    cursor: pointer;
 }
 
-/* FIM CARD ARTISTA */
+.header__login .subscribe:hover {
+    transform: scale(1.04);
+    color: #fff;
+    cursor: pointer;
+}
+
+.header__login .login:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}

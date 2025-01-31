@@ -125,6 +125,7 @@ body {
 
 .section-playlist_content .subtitle, .section-podcast_content .subtitle{
     font-size: 12px;
+    padding: 0;
     font-weight: 500;
 }
 
@@ -134,11 +135,11 @@ body {
     background-color: #fff;
     color: #000;
     border-radius: 20px;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
     text-decoration: none;
     text-transform: none;
-    padding: 6px;
+    padding: 8px;
     margin-top: 12px;
     border: 0;
     width: 113px;
@@ -158,10 +159,6 @@ body {
     font-size: 12px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.sidebar .cookies a:hover{
-    text-decoration: underline;
 }
 
 .languages .languages_button {
@@ -215,4 +212,29 @@ body {
     border-radius: 40px;
     cursor: pointer;
     flex-shrink: 0;
+}
+
+/*hovers*/
+.sidebar nav ul li a:hover {
+    color: #fff;
+}
+
+.section-playlist_button:hover,
+.section-podcast_button:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.sidebar .cookies a:hover {
+    text-decoration: underline;
+}
+
+.languages_button:hover {
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.premium button:hover{
+    transform: scale(1.04);
+    cursor: pointer;
 }
